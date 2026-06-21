@@ -39,7 +39,6 @@ export const ProjectCard: FC<ProjectCardProps> = (props) => {
     technologies,
     year,
     featured = false,
-    projectUrl,
     githubUrl,
     hoverColor,
   } = props;
