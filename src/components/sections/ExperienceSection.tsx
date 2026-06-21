@@ -24,21 +24,28 @@ const experiences: Experience[] = [
     type: 'Internship',
     projects: [
       {
-        title: 'TECHBUDDY',
+        title: 'TECHBUDDY - Enterprise Management System',
         bullets: [
-          'Engineered bulk import pipelines for 6 entity types with Excel parsing, schema validation, and atomic transactions.',
-          'Processed 3,000–5,000 records per import with row-level validation and partial failure reporting.',
-          'Built advanced data tables with Group By, column visibility controls, saved views, bulk actions, and Excel export functionality.',
-          'Developed Prisma aggregation logic to normalize nested data responses.'
-        ],
+          'All-in-one enterprise management system for workforce operations, asset management, maintenance planning, service ticketing, and infrastructure administration.',
+          'Developed a reusable enterprise data management toolbar used across 6+ modules, standardizing Group By, column visibility, saved views, bulk actions, and export workflows.',
+          'Engineered Excel import pipelines for multiple entity types with schema validation, row-level error reporting, and transactional database updates.',
+          'Processed 3,000–5,000 records per import while maintaining validation accuracy and partial failure reporting.',
+          'Developed Prisma aggregation and transformation logic to normalize nested relational data into frontend-friendly API responses.',
+          'Built configurable data tables with dynamic grouping, filtering, column customization, and user-specific view management.',
+          'Implemented bulk action workflows and Excel export functionality to streamline enterprise data administration.'
+        ],  
         tech: ['NestJS', 'React', 'TypeScript', 'PostgreSQL', 'Prisma']
       },
       {
         title: 'ITSM TICKETING SYSTEM',
         bullets: [
-          'Developed an enterprise ITSM platform featuring a full-stack routing engine across 10+ service groups including Cloud, Security, and RIMS.',
-          'Implemented JWT authentication and RBAC/PBAC authorization across 4 permission tiers, securing 39+ protected API endpoints.',
-          'Built a high-precision SLA breach engine with cron-backed polling, sub-60 second latency tracking, and field-level audit logging.'
+          'Enterprise IT Service Management (ITSM) platform centralizing incident tracking, SLA governance, and operational automation.',
+          'Architected a modular NestJS backend with 7 feature modules, a 14-model PostgreSQL database, and 35+ secured REST endpoints.',
+          'Engineered a dual-deadline SLA compliance engine tracking both Time-to-First-Response and Resolution deadlines, featuring pause/resume handling and automated breach detection.',
+          'Implemented complex role-based access control (RBAC) supporting 18 permissions across administrators, engineers, managers, and customers.',
+          'Built cron-driven automation for scheduled operational tasks, recurring ticket generation, and deadline recalculations.',
+          'Developed a permission-aware React frontend with protected routing, role-based UI rendering, and server-state management.',
+          'Implemented transactional workflows using Prisma to ensure data consistency during complex operations like ticket merges.'
         ],
         tech: ['NestJS', 'React', 'TypeScript', 'PostgreSQL', 'Prisma', 'JWT', 'RBAC']
       }
