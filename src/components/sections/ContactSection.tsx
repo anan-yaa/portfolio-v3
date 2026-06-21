@@ -47,7 +47,7 @@ export const ContactSection: FC = () => {
               LET'S <br/>CONNECT.
             </h2>
             <p className="text-lg text-black/80 max-w-md leading-relaxed">
-              Have a project in mind or want to collaborate? Feel free to reach out. I'm currently open to new opportunities and exciting challenges.
+            Feel free to reach out using the form, or take a look at my socials.
             </p>
           </div>
 
